@@ -12,7 +12,8 @@ git 指定从github下载文件的路径及pull文件指令：
                       git pull git@github.com:badiusguo/repository name.git
 
 
-git 将文件上传到github:git add .
+git 将文件上传到github:其中，在本地更改后上传，（git add . 和git commit -m " "一定要加，否则新内容无法同步至github)
+                      git add .
                       git commit -m "说明"
                       git push git@github.com:badiusguo/repository name.git
                       
